@@ -7,7 +7,7 @@ A dynamic, interactive Power BI dashboard built for a financial organization to 
 A dynamic Power BI reporting solution designed to track transaction volumes, operational fees, tax collections, customer segment performance, and YoY growth metrics across multi-state operations.
 
 2. Short Description / Purpose
-The FinSight Analytics Dashboard delivers a centralized visual solution for finance managers, risk analysts, and executive leadership to monitor transaction health and customer behavior. The system provides real-time tracking across major financial metrics—including Total Transaction Amount, Transaction Volume, Fees, and Tax—while evaluating failure rates, demographic contributions, and state-wise performance to guide strategic decision-making.
+The FinSight Analytics Dashboard offers a centralized solution for finance leaders, risk analysts, and operations teams. Built with a two-tab navigation system (Overview Analysis and Transactions), it combines high-level executive KPI tracking with a granular record-level grid for audit, reconciliation, and deep-dive analysis.
 
 3. Tech Stack
 Power BI Desktop – Interactive report design, dashboard wireframing, and visual formatting
@@ -16,29 +16,25 @@ DAX (Data Analysis Expressions) – Calculated measures, Time Intelligence formu
 Data Modeling – Established Star Schema connecting finance_transactions fact table with customers and calendar dimension tables
 File Format – .pbix (Full Report & Data Model) & .pbit (Report Template)
 
-4. Features & Visual Breakdown
-• Primary KPIs (Executive Header)
+3. Dashboard Structure & Features
+📌 Page 1: Overview Analysis (Executive Insights)
+Primary KPIs (Header Bar)
 Total Amount: Total transaction monetary value processed + YoY growth comparison.
-Total Transactions: Total volume of transactions executed with yearly growth tracking.
+Total Transactions: Total count of transactions executed with yearly volume changes.
 Average Transaction Value: Average revenue generated per processed transaction.
-Total Fees: Aggregate operational fees collected from transaction processing.
-Total Tax: Total tax revenue generated across all transaction types.
+Total Fees: Aggregate operational fees collected from processing.
+Total Tax: Total tax revenue generated across all transactions.
 
-• Visual Analytics Breakdown
-1. Total Amount by Month (Line / Area Chart)
-Tracks monthly transaction trends to highlight seasonal spikes, revenue drops, and overall momentum throughout the fiscal year.
-2. Total Amount by Transaction Status (Donut Chart)
-Compares transaction volume and amount across Success, Failed, and Pending statuses to monitor system health and operational failure rates.
-3. Total Amount by Customer Segment (Horizontal Bar Chart)
-Measures financial contribution across key client tiers: Retail, Premium, SME, Corporate, and Wealth.
-4. Total Amount by State (Horizontal Bar Chart)
-Ranks regional financial performance across states to locate high-value markets and expansion opportunities.
-5. Transaction Type Matrix (Heatmap / Table View)
-Detailed grid analyzing Amount, Fees, Tax, and Transaction Count across 10 core transaction types (Bill Payment, Card Payment, Deposit, Fee Charge, Interest Credit, Investment, Loan EMI, Refund, Transfer, Withdrawal).
-6. Demographic Breakdown (Donut Chart)
-Analyzes monetary contributions split by gender (Male vs. Female) to understand customer demographic participation.
-7. Detailed Transactions View (Grid & Drill-Down Page)
-A dedicated secondary view providing line-by-line record details, supporting interactive drill-downs for transaction audit, reconciliation, and granular record analysis.
+Visual Analytics Breakdown
+📉 Total Amount by Month (Line/Area Chart): Evaluates monthly transaction trends to spot seasonal spikes or operational drops.
+⭕ Total Amount by Transaction Status (Donut Chart): Compares Success, Failed, and Pending transactions to monitor system health.
+📊 Total Amount by Customer Segment (Bar Chart): Measures revenue contributions across Retail, Premium, SME, Corporate, and Wealth clients.
+📍 Total Amount by State (Bar Chart): Ranks financial performance by region to pinpoint high-value markets.
+📋 Transaction Type Matrix (Heatmap Table): Matrix displaying Amount, Fees, Tax, and Count across 10 transaction types (Bill Payment, Card Payment, Deposit, Fee Charge, Interest Credit, Investment, Loan EMI, Refund, Transfer, Withdrawal).
+👥 Total Amount by Gender (Donut Chart): Tracks customer demographic distribution (Male vs. Female).
+📌 Page 2: Transactions (Detailed Grid & Drill-Down)
+📄 Underlying Records Grid: Detailed table displaying line-by-line raw transaction data for audit and reconciliation.
+🔍 Interactive Drill-Through: Allows users to filter down to specific transaction IDs, customer details, occupations, and category filters selected on the Overview tab.
 
 5. Business Impact & Insights Summary
 By centralizing transaction data, risk teams can immediately identify high failure rates across specific payment channels or regions to prevent revenue leakage. Operations leadership can leverage state-wise and customer segment breakdowns (Corporate vs. Retail) to allocate resources toward high-margin customer bases. Additionally, tracking Fees and Tax alongside base transaction amounts equips finance strategists to optimize pricing structures, forecast tax liabilities, and drive overall organizational profitability.
