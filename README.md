@@ -44,4 +44,4 @@ A dedicated secondary view providing line-by-line record details, supporting int
 By centralizing transaction data, risk teams can immediately identify high failure rates across specific payment channels or regions to prevent revenue leakage. Operations leadership can leverage state-wise and customer segment breakdowns (Corporate vs. Retail) to allocate resources toward high-margin customer bases. Additionally, tracking Fees and Tax alongside base transaction amounts equips finance strategists to optimize pricing structures, forecast tax liabilities, and drive overall organizational profitability.
 
 # Snapshot - Overview
-![Dashboard Preview]
+![Dashboard Preview](https://github.com/Sneha-Mistri/Financial-Dashboard/blob/main/Financial_Overview_Snapshot.png)
