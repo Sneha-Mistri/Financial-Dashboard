@@ -8,12 +8,13 @@ A dynamic Power BI reporting solution designed to track transaction volumes, ope
 # Short Description / Purpose
 The FinSight Analytics Dashboard offers a centralized solution for finance leaders, risk analysts, and operations teams. Built with a two-tab navigation system (Overview Analysis and Transactions), it combines high-level executive KPI tracking with a granular record-level grid for audit, reconciliation, and deep-dive analysis.
 
-# Tech Stack
-Power BI Desktop – Interactive report design, dashboard wireframing, and visual formatting
-Power Query – Data cleaning, schema transformation, type formatting, and source path mapping
-DAX (Data Analysis Expressions) – Calculated measures, Time Intelligence formulas (YoY Amount, YoY Transactions), dynamic metric selection logic, and KPI aggregations
-Data Modeling – Established Star Schema connecting finance_transactions fact table with customers and calendar dimension tables
-File Format – .pbix (Full Report & Data Model) & .pbit (Report Template)
+### 📂 Tech Stack
+
+* **Power BI Desktop** – Interactive report design, dashboard wireframing, and visual formatting
+* **Power Query** – Data cleaning, schema transformation, type formatting, and source path mapping
+* **DAX (Data Analysis Expressions)** – Calculated measures, Time Intelligence formulas (YoY Amount, YoY Transactions), dynamic metric selection logic, and KPI aggregations
+* **Data Modeling** – Established Star Schema connecting `finance_transactions` fact table with `customers` and `calendar` dimension tables
+* **File Format** – `.pbix` (Full Report & Data Model) & `.pbit` (Report Template)
 
 ## Dashboard Structure & Features
 
