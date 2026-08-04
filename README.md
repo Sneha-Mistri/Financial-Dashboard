@@ -45,3 +45,6 @@ By centralizing transaction data, risk teams can immediately identify high failu
 
 # Snapshot - Overview
 ![Dashboard Preview](https://github.com/Sneha-Mistri/Financial-Dashboard/blob/main/Financial_Overview_Snapshot.png)
+
+# Snapshot - Transaction
+![Dashboard Preview]((https://github.com/Sneha-Mistri/Financial-Dashboard/blob/main/Financial_Transaction_Snapshot.png)
